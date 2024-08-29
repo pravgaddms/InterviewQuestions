@@ -1,0 +1,213 @@
+****************************
+1.Rate your self in AWS out of 10? 
+2. So in terms of EC2, what are the different classes of instances that you have launched? 
+3. so let's say you have an instance that has a large that has a size of large. So how many V CPU and how much RAM can I expect out of that? So if a size of an instance is large. 
+How much V CPU's size of the instance for you can assume like a C6A dot large 
+4.Have you worked on Autoscaling Group? 
+5. OK, so now let's say there is one application that is required to be set up. 
+It is to be run on a EC2 instance and it has to be using an auto scaling group so that the application can scale up and down. 
+So could you walk me through from step #1 all the way to the end as to what all work you will have to do to configure that application, deploy it on EC2 and make sure that it is running behind auto scaling group? 
+
+6. After scaling of the application, now it is time to scale down the application or scale in the application. So is there any control that you can define that will tell you how your application will scale in? 
+7.So now so have you worked on some of the container services we have like ECS or uh light sail or.? 
+8. And do you know fundamentals on containers and Docker? 
+9. Here and what are the infrastructure as code tool that you have experienced with? 
+10.And do you have any knowledge or experience of cloud formation or Terraform? 
+11. So we'll we'll start with Docker.We'll start with a few questions on Docker.So let's say you you have, you have to help out one of your colleague who is trying to build a Docker file by himself. 
+12. And could you just walk me through what all goes in a Docker file based on your experience? 
+13. So in terms of cloud formations, where are there any functions that you have worked with in built functions? 
+14. OK, so let's uh, let's move on to some troubleshooting questions. There is an application that is running on EC2 instances.It is behind the same auto scaling group that you helped us create and it is connecting to RDS service OK and now you have some of your development teammates who, well, we'll call that their application is not working, OK. And they have asked for your help to understand what is the problem. OK, now could you describe to me step by step how will you approach this problem and how will you isolate either the problem or help in moving towards the you know the problem area? 
+15. Look, you can assume that this application was working fine and application is on easy too and RDS. You can assume my SQL RDS running in multi AZ. And they're running within the same VPC the so as per the developers, they are not able to open their application page. 
+16.So now let's assume that the networking is fine and DNS is fine because the application was wondering working up till 11:00 AM tomorrow today morning. OK, if you rule out the network and the DNS, what other part of your infrastructure you may like to check? 
+17. What services are free in AWS (IAM)
+
+****************************
+1) What is pod 
+2) How do you schedule jobs 
+3) Explain cloud migration have you done any tasks related to it 
+4) Python  script to generate jira reports older then a week automation script 
+5) How can you monitor a log file in real-time?
+6) On my linux based server disk space utilization almost full. I have checked and deleted log file which was consuming lots of space. but still disk space utilization showing same. how to fix this?
+7) What is swap memory ? when we use it?
+8) I want to execute my script when server got rebooted? how to setup?
+9) Explain docker and Kubernetes architecture what is the difference 
+##Docker compose.file for node js application 
+10) Terraform script to launch ec2 asked me to share screen and execute it
+11) Explain your day to day activities and what you faced which is challenging and explanation of the issue 
+12) I want to verify my web server or website is working fine or not from command line? how to check?
+13) I have installed nginx web server and deployed website, everything working fine. But after rebooting server my website is not working?
+
+*****************************************************************
+1) What is the command for running containers.
+Write a Docker file and build image and run the container.
+How you will enter into running containers.
+Explain Jenkins complete CICD.
+Write jenkins declarative pipeline.
+What is trivi sonarq and Maven also how will integrate with jenkins. Explain me sonarQube reports details and and how you will inform to developer regarding the report result. 
+What terraform.
+Write terraform script to create s3 but in AwS.
+
+LINUX BASIC COMMAND.
+What is the Ansible why need to be used.
+What is the availability zone in Cloud and how to use.
+What is Isto/service mesh.
+
+Scenario based questions: client want to move their project from  onprem to Cloud platform. What will be your strategy.
+What is persistent volume. 
+What are services available in K8s is name and explain. 
+What is the secret file in K8s and how to Store those.
+Explain the Azure DNS and storage service.
+Tell me the some services name in AWS.
+What is helm why we need to be use and for what. Also them me so helm commands.
+Have you completed any POC..
+How your monitor your cluster. Also have you work on any monitoring tools.
+***************************Kubernetes*********************************************
+- Tell me brief Intro about your Project or 
+1- Infrastructure you managed, and All tools used in Project
+2 - What is your Day to Day task in your Kubernetes Project
+3 - Tell me about some challenges you faced in your project
+4 - What are the team size and whats your Role & Responsibility in Kubernetes Project
+5 - Have you Setup Entire Kubernetes Cluster from Scratch Level Independently
+6 - Have you Done Cluster Upgrdation and what Challenges you faced during Cluster Upgradation
+7 - Tell me few Issue recently you fixed in your Kubernetes
+*************************************************************************************
+======================
+1. Rate your self in GitHub.
+2. Explain the process from scratch from saving the code changes to pushing the code to remote repo, tell all the commands.
+3. Difference between git fetch and git pull.
+4. Even after I modified the code, git push is saying No changes to push. What could be the reason.
+5. I have 100 commits and from that I need to take one specific commit and merge it to another branch. How you do it and how will you get the commit ID.
+6. Tell me some issues related to Git which you have troubleshooted.
+7. I am not able to login to the EC2 instance using username and password even though I am using correct credentials and I was able to login successfully earlier. How you troubleshoot.
+8. I have 5 EC2 instances and I need to update them all at a time. What steps will you take to avoid downtime and update them.
+9. I have an EC2 instance and AWS secrets manager. In secrets manager I stored my EC2 credentials. I want my credentials to be retrieved from secrets manager to login to the EC2 instance. Is there any possibility, if yes how would you do that.
+10. Tell me some issues related to AWS Cloud which you have troubleshooted.
+11. Why industry not using Docker swarm, what disadvantages of Docker swarm forced industry to move towards kubernetes.
+12. Explain briefly for 2 mins about the whole journey of migrating from on prem servers to cloud to docker to kubernetes along with advantages and disadvantages.
+13. Do you have knowledge on Github actions.
+14. Have you ever used Github secrets.
+15. If the container goes down,  or the container will be terminated due to   some issue, How will  you  recover the application data. What about the data of application
+16. Our requirement is to deploy the latest docker container image on the K8s cluster then How you update the docker image in the existing Jenkins pipeline? How do you automate this task?
+======================================
+1. We have a static website in s3 and it is http how to do that https?
+2. We have a domain name and we want to use that from 3 different account for 3 teams like... Dev... Test and production. How to do that?
+3. What is the different between ALB and GLB in aws?
+4. How to connect VPC of 2 different account in aws?
+5. How to run parallel stages in Jenkins
+6. What is cloudfront in aws?
+7. How to join node into eks cluster without downtime?
+8. How to patch update in nodes without downtime?
+9. What is the difference between cmd and entrypoint in docker?
+10. Write a shell script to collect the logs from all the servers.
+======================================
+Disk management related like 
+How to find top 10 files utilising space,
+Filesystem creation in LVM, prepare with complete process,
+system performance issues like hang, slow,
+Unable to ping server, troubleshooting steps,
+File permissions and ownership chmod and chown,
+Patch update process
+Crontab and At job schedules 
+=============================================
+1. Understanding on the kind of exposure you have on K8s
+2.  Have you  worked on GKE as well as EKS
+3  Were you also involve in setting up of the EKS cluster or GKE cluster or was done by someone else
+4. The architecture of K8s
+5.How many master node are required for to of K8s infrastructure to ensure H.A of k8s infrastructure
+6. Which CNI have worked with ?
+7.  What is CSI
+8. What is Node Port 
+9. What is K8s ingress 
+10.When should we be using mode Part and when should we be using ingress
+11. which OSI layer the ingress work
+12. What are statefull set
+13  You have 5 worker node in your cluster. You have been asked to deploy the application which should be running on node no.3 or 5.
+    How will you achieve that
+14.You have 2 namspaces. Name Space A & B. Ensure that pods which are deployed in namespace A do not communicate with pods in name space B.
+15.You have 5 worker node in your cluster and you just realize that worker node no.5 is showing as not ready .
+    what could be possible reason and how about the trouble shooting the issue.
+16.You have 5 worker node in your cluster .Now you have been asked to deploy the new application in in cluster, which should be allowed to run on any one of
+   the 5 worker node, provided that the front end and the back end pods of that the application run on the same worker at any node at any given point of
+   time.
+              OR
+- Ensure that Front end & backend pods of the application runs on the same worker node, k8s should be allowed to select which worker node the application 
+  runs on
+17. What is daemon set
+18. What are liveness and readiness probe
+======================================================
+
+1. how cicd pipeline is for frontend and back end
+2. how we know the trafic is coming from which region or area and how to reduce latency for user
+3. where used ansible
+4. terraform architecture in real world
+5. how to configurw svc and deployment
+6. github actions implementation
+7. what is the use of ingress controller
+8. how to secure the server with shell scripting
+9. three ansible use cases in realtime.
+10. how you document the process ex . using confluence or other tools
+11. git ops tools like argo cd uses
+12. what is USER in docker file
+13. realtime troubleshooting you faced.
+14. realtime challenges you faced.
+15, how many load balancers are there and explain each one
+16. how do we configure deloyment.yml and service. yml.
+17. what tools used for testing in cicd pipeline.
+18. what are webhooks
+19. what is vpc and explain
+20. how private subnet will talk to external world
+21. what are serverless architecure
+22 how sonar qube works ans if code is vulnerable what will it does.
+=====================================================
+
+ Explain your project 
+ what is terraform ..?
+ Explain modules in terraform ...?
+ Terraform init ..?
+ Entrypoint, CmD difference 
+ Explain stages in CI/CD ...?
+ what are hard and soft link ..?
+ Explain about vpc peering ...?
+ Use of bastion node ..?
+ ADD and COPY difference ..?
+ Node affinity and pod scheduling ..?
+ What are ansible roles ...?
+ what Ansible password you use ...?
+ what is ansible galaxy ...?
+ what is Continous delivery and continous depolyment ...?
+1. What kind of issues you faced with developers in Jenkins pipelines ?
+2. How to check these issues 
+=================================================
+1. Which language specific applications you are deploying in your current organization.
+2. Do you have knowledge in Shell scripting.
+3. How many shell scripts you have written.
+4. What kind of shell scripts are used in your organization.
+
+GitHub
+-------
+1. What is cherry pick and explain a scenario where you used this.
+2. I made a wrong commit and I want to undo the commit. Is there any command present and how you do.
+3. Git revert can revert back last commit, what if I have a series of commits and I want revert all of them. Then what is your approach and how you will do or is there any possibility to perform this action.
+4. Do you have idea about detached head in git.
+5. What is your typical branching followed in your organization.
+6. As per your branching strategy, you mentioned that all of your source code is finally merged to master in development env and from there you are moving to other stages like testing, staging and production. So you migrated the code till production and deployed the code into production, then you faced an issue in production. So in order to fix the issue I need to modify the code and then deploy again but can I rely on development env master branch code as source of truth? Interviewer said that I cannot rely as dev master contains additional code (new dev code + prod code) which is not exactly existing prod. So how will you deal such issue in this situation and steps to fix the issue.
+7. I accidentally/intentionally deleted a branch from both local repo and remote repo or after merge was completed we deleted the branch. Is there any way to bring the deleted branch back. Have you experienced this and how you will do this.
+
+
+Jenkins
+--------
+1. Have you implemented any deployment plan with stake holders. If yes explain how you implemented.
+2. Have you configured jenkins from scratch.
+3. Have you written CI/CD from scratch and which type of pipeline you used for that.
+4. How to incorporate a shell script in a jenkins stage. Think of a scenario where just maven build was not sufficient for my application to build successfully instead I need to do some additional tasks for which there was a shell script. Now, how can I use this shell script in the jenkins stage.
+5. How are you handling Build issues in jenkins. How you troubleshoot and fix them, explain with some scenarios.
+6. In your experience have you ever faced a situation where your jenkins jobs are running very slow and jenkins server is taking long time to respond and some times it says timeout. What is that root cause you found for such type of performance related issues and how you fixed that issue.
+7. How are you managing jenkins server, so that it runs all the jobs smoothly without having performance issues and to reduce the load on server.
+========================================
+
+Interview Important Question for Kubernetes? 
+What is difference between nodeSelector Vs nodeAffinity ??
+NodeSelector is a basic and straightforward mechanism in Kubernetes that allows us to control which nodes a Pod can be scheduled on by specifying key-value pairs that must match labels on the desired nodes. 
+while Node Affinity allows us to specify rules that determine which nodes a pod can be scheduled on based on nodes specific labels. 
+
+https://www.sprintzeal.com/blog/aws-interview-questions

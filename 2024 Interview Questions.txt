@@ -1,4 +1,4 @@
-****************************
+*****************************************
 1.Rate your self in AWS out of 10? 
 2. So in terms of EC2, what are the different classes of instances that you have launched? 
 3. so let's say you have an instance that has a large that has a size of large. So how many V CPU and how much RAM can I expect out of that? So if a size of an instance is large. 
